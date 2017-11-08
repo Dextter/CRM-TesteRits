@@ -9,21 +9,33 @@ package com.crm.rits.POJO;
  *
  * @author root
  */
-public class UsuarioPOJO {
+public class Usuario {
 
+    private int id;
     private String nome;
+    private String senha;
     private String mail;
     private String fone;
 
-    public UsuarioPOJO() {
+    public Usuario() {
     }
 
-    public UsuarioPOJO(String nome, String mail, String fone) {
+    public Usuario(int id, String nome, String senha, String mail, String fone) {
+        this.id = id;
         this.nome = nome;
         this.mail = mail;
         this.fone = fone;
+        this.senha = senha;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+    
     public String getNome() {
         return nome;
     }
@@ -31,6 +43,14 @@ public class UsuarioPOJO {
     public void setNome(String nome) {
         this.nome = nome;
     }
+
+    public String getSenha() {
+        return senha;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }        
 
     public String getMail() {
         return mail;
