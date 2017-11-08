@@ -1,3 +1,5 @@
+package com.crm.rits.ManagedBeans;
+
 
 import javax.faces.bean.ManagedBean;
 
