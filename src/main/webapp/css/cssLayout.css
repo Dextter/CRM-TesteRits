@@ -1,0 +1,117 @@
+
+#top {
+    position: relative;
+    background-image: url("../images/header.png"); 
+    
+    background-repeat: no-repeat;    
+}
+
+#bottom {
+    position: relative;
+    background-image: url("../images/form.png"); 
+    background-repeat: no-repeat;
+    height: 967px;            
+}
+
+#footer {
+    position: relative;
+    background-color: #800000;
+    text-align: center;
+    color: white;    
+}
+
+#left {
+    float: left;
+    background-color: #ece3a5;    
+    width: 150px;
+}
+
+#right {
+    float: right;
+    background-color: #ece3a5;    
+    width: 150px;
+}
+
+.imgLogo{
+    position: relative;
+    margin-left: 15%;
+}
+
+#textosHead{
+    position: relative;
+    width: 900px;
+    margin-left: 20%;
+}
+
+.headTextoEntrada{
+    position: relative;
+    font-size: 30px;    
+    color: white;
+    
+}
+
+.headTextoComplementar{
+    width: 420px;
+    position: relative;
+    text-align: left;
+    font-size: 25px;   
+    color: white;    
+}
+
+.btEntrar {
+    position: relative;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border-style: dashed;
+    border: white;    
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    margin-right: 20%;
+}
+
+.fsbt{  
+    position: relative;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;    
+    margin-left: 50%;    
+    width: 90px;
+}
+.center_content {
+    position: relative;
+    background-color: #dddddd;
+    padding: 5px;
+}
+
+.left_content {
+    background-color: #dddddd;
+    padding: 5px;
+    margin-left: 170px;
+}
+
+.right_content {
+    background-color: #dddddd;
+    padding: 5px;
+    margin: 0px 170px 0px 170px;
+}
+
+#top a:link, #top a:visited {
+    color: white;
+    font-weight : bold;
+    text-decoration: none;
+}
+
+#top a:link:hover, #top a:visited:hover  {
+    color: black;
+    font-weight : bold;
+    text-decoration : underline;
+}
+
+

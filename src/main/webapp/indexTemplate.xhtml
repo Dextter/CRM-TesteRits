@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <h:head>
+        
+            <meta charset="utf-8"/>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+            <title>Rits Tecnologia</title>
+            <meta name="description" content=""/>
+            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+            <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>                                    
+
+            <!--For Plugins external css-->
+            <link rel="stylesheet" href="assets/css/plugins.css" />
+            <link rel="stylesheet" href="assets/css/raleway-webfont.css" />
+
+            <!--Theme custom css -->
+            <link rel="stylesheet" href="assets/css/style.css" />
+
+            <!--Theme Responsive css-->
+            <link rel="stylesheet" href="assets/css/responsive.css" />
+
+            <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>    
+    </h:head>
+
+    <h:body>
+        <!--Home page style-->
+        <header id="home" class="home">
+            <div class="overlay-img">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="home-content">
+
+                                <h5>Grab Your Copy Of</h5>
+                                <h1>The <span>Premium</span> Quality PSD Template For <span>free</span></h1>
+
+                                <a target="_blank" href="#"><button class="btn btn-default btn-home">Assine agora<span></span></button></a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>	
+        </header>
+
+        <!-- Sections -->
+        <div id="top">
+            <ui:insert name="top">
+
+                <div class="imgLogo" >                    
+                    <img src="images/logo.png" alt="logo"/>
+                </div>
+
+                <div id="textosHead">
+                    <div class="headTextoEntrada">
+                        <h1>Tudo que você precisa para começar a vender</h1>
+                    </div>
+
+                    <div class="headTextoComplementar">
+                        Tenha acesso ao melhor e mais completo conteúdo através da nossa plataforma.
+                    </div>  
+                </div>
+
+                <div id="btEntrar">
+                    <fieldset class="fsbt">
+                        <input type="submit" class="btEntrar" value="Entrar" name="btEntrar" />
+                    </fieldset>
+                </div>
+
+            </ui:insert>
+        </div>
+
+        <div id="content" class="center_content">
+            <ui:insert name="content">Content</ui:insert>
+        </div>       
+
+        <div id="footer">
+            <ui:insert name="footer">
+                <!--Footer-->                               
+                <footer class="copyright-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="copyright text-center">
+                                    <p>Made with <i class="fa fa-heart"></i> by <a target="_blank" href="http://bootstrapthemes.co"> Bootstrap Themes </a>2016. All rights reserved.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>		
+                </footer>
+
+
+                <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+                <script src="assets/js/vendor/bootstrap.min.js"></script>
+
+
+                <script src="assets/js/jquery.easypiechart.min.js"></script>
+                <script src="assets/js/plugins.js"></script>
+                <script src="assets/js/modernizr.js"></script>
+                <script src="assets/js/main.js"></script>
+
+            </ui:insert>
+        </div>
+
+    </h:body>
+
+</html>
